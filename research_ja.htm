@@ -1,0 +1,172 @@
+﻿<html>
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<title>
+研究内容の紹介
+</title>
+
+<style type="text/css">
+a:link {
+text-decoration:none;
+color:#0022bb;
+}
+a:visited {
+text-decoration:none;
+color:#0022bb;
+}
+a:active {
+text-decoration:none;
+color:#0022bb;
+}
+a:hover {
+text-decoration:none;
+color:#CC0000;
+background: #ffddcc;
+}
+.gyokan {line-height: 150%;}
+.bar {
+    background-color: #aaeecc;;
+    }
+.bar:hover {
+    background-color: #ffddcc;
+    }
+</style>
+</head>
+
+<body background="bgimg.png">
+
+
+<img src="lablogo.gif" width="460" height="78" title="先進的計算基盤研究室">
+<p>
+大阪府立大学　工学研究科　知能情報工学分野 / 工学域　情報工学課程<br>
+大阪公立大学　情報学研究科　基幹情報学専攻　システム情報学分野 / 工学部　情報工学科<br>
+先進的計算基盤研究室
+</p>
+
+
+<table border=0 width=100% align=center>
+ <tr bgcolor="#aaffcc">
+  <th class="bar" width=20%><a href="index.htm"><font size=+1>トップ</font><br>top</a></th>
+  <th class="bar" width=20%><a href="research_ja.htm"><font size=+1>研究の詳細</font><br>research topics</a></th>
+  <th class="bar" width=20%><a href="labmember_ja.htm"><font size=+1>研究室メンバ</font><br>lab members</a></th>
+  <th class="bar" width=20%><a href="publication_ja.htm"><font size=+1>発表論文</font><br>publications</a></th>
+  <th class="bar" width=20%><a href="links.htm"><font size=+1>関連リンク</font><br>links</a></th>
+ </tr>
+</table>
+
+<hr>
+
+<table border=0 width=90% align=center>
+ <tr>
+  <td>
+
+<center><h1>研究内容の紹介<hr></h1></center>
+
+<!-- 
+<h2><font color="#bb3333">研究室について</font></h2>
+-->
+
+
+<table border=0 width=90% align=center>
+ <tr>
+  <td class="gyokan">
+当研究室では，GPUや並列処理を利用した高性能計算や，分散計算をはじめとした，移動可能な情報機器を利用した情報処理技術（モバイルコンピューティング）についての研究活動を行っています．<br>
+GPU，計算の高速化，並列処理，分散処理，スマートフォン，位置推定，ウェアラブルデバイス，センシング等のキーワードに興味がある方はぜひ研究室にお立ち寄りください．
+  </td>
+</tr>
+
+</table>
+<br><br><br>
+
+
+<table border=0 width=100% align=left>
+ <tr>
+  <td bgcolor="ffccee">
+<b><font size="+2" color="#aa3333">高性能計算分野　（<a href="field01.htm">詳細はこちら</a>）</font></b>
+</tr>
+</td>
+</table>
+
+<table border=0 width=90% align=center>
+ <tr>
+  <td class="gyokan">
+GPU(Graphics Processing Unit)は本来は描画処理専用のユニットでした．
+ごく最近になって，GPUをC言語でプログラミングして，普通のコンピュータが行うような計算をGPUを使って行えるようになってきました．
+それにより，GPUによる高速計算が可能となりました．
+GPUは多数の小さなCPUの集合体のようなもので，例えば5120個のプロセッサを搭載しているものがあります．
+それを用いて適切にプログラミングすると，1つの大きな問題を5120人で協力して解くといったことが可能です．
+そのためには小CPUそれぞれが，いつ，何をすればよいかをプログラミングしなければいけないのですが，下手にプログラミングをするとかえって計算性能が落ちてしまうことにもなりかねないので，各アルゴリズムに合わせた独自の工夫が必要となってきます．
+高性能計算分野では，主にGPUによる計算の性能をできるだけ高めるような並列プログラミングを研究していきます．
+<br><a href="field01.htm">(高性能計算分野の研究テーマの詳細へ)</a><br><br>
+<img src="research01.jpg">
+<br><br>
+
+<h3>科研費による研究プロジェクト</h3>
+<a href="https://kaken.nii.ac.jp/ja/grant/KAKENHI-PROJECT-23500285/">進化計算の高速化を実現するＧＰＧＰＵ基盤ソフトウェアの開発</a><br>
+<a href="https://kaken.nii.ac.jp/ja/grant/KAKENHI-PROJECT-26330088/">GPGPUプログラミング容易化のためのMapReduceアルゴリズム処理系の開発</a><br>
+<a href="https://kaken.nii.ac.jp/ja/grant/KAKENHI-PROJECT-17K00171/">複素母関数の多倍長精度計算に基づく組み合わせ最適化新解法の並列化</a><br>
+
+
+  </td>
+</tr>
+</table>
+<br><br>
+
+
+
+<table border=0 width=100% align=left>
+ <tr>
+  <td bgcolor="ffccee">
+<b><font size="+2" color="#aa3333">分散計算・モバイルコンピューティング分野　（<a href="field02.htm">詳細はこちら</a>）</font></b>
+</tr>
+</td>
+</table>
+
+<table border=0 width=90% align=center>
+ <tr>
+  <td class="gyokan">
+近年，スマートフォン，スマートウォッチ，ヘッドマウントディスプレイなどの持ち運び可能なコンピュータが普及してきています．
+色々な人が装着しているこれらのコンピュータ，さらには建物に設置してあるようなコンピュータに至るまで，様々なコンピュータを互いに連携させることで，より高度な情報サービスが期待されています．
+例えば，リアルタイムに正確なナビゲーションを行ったり，ヘッドマウントカメラに映った様々な物の詳細な情報を瞬時に提示したり等が期待されていますが，これらを実現するためにはまだまだ多くの課題を解決していかなければいけません．
+当研究室の分散計算・モバイルコンピューティング分野では，移動を伴う多くのコンピュータがお互いに通信できる環境で，各コンピュータがどのように動けば全体としての目的の動作を効率的に達成できるかを考えていきます．
+主に無線ネットワーク環境を想定し，センサネットワーク，MANET（mobile ad hoc network），車車間通信などに対して，位置推定，センシング，通信など効率化，高性能化するための方法を研究します．
+<br><a href="field02.htm">(分散計算・モバイルコンピューティング分野の研究テーマの詳細へ)</a><br><br>
+<img src="research02.jpg">
+<br><br>
+
+<h3>科研費による研究プロジェクト</h3>
+<a href="https://kaken.nii.ac.jp/ja/grant/KAKENHI-PROJECT-25730062/">太陽光発電を用いた無線センサネットワーク長期間稼働のためのノードの移動手法</a><br>
+<a href="https://kaken.nii.ac.jp/ja/grant/KAKENHI-PROJECT-15K15986/">WSNにおける映像センシングでの被覆阻害問題への対策</a><br>
+<a href="https://kaken.nii.ac.jp/ja/grant/KAKENHI-PROJECT-18K11270/">山林における移動式カメラノードの導入による協調モニタリング方式の開発</a><br>
+
+  </td>
+</tr>
+</table>
+
+
+
+
+
+
+
+
+
+
+<br><br><hr>
+<table border=0 width=100% align=center>
+ <tr bgcolor="#aaffcc">
+  <th class="bar" width=20%><a href="index.htm"><font size=+1>トップ</font><br>top</a></th>
+  <th class="bar" width=20%><a href="research_ja.htm"><font size=+1>研究の詳細</font><br>research topics</a></th>
+  <th class="bar" width=20%><a href="labmember_ja.htm"><font size=+1>研究室メンバ</font><br>lab members</a></th>
+  <th class="bar" width=20%><a href="publication_ja.htm"><font size=+1>発表論文</font><br>publications</a></th>
+  <th class="bar" width=20%><a href="links.htm"><font size=+1>関連リンク</font><br>links</a></th>
+ </tr>
+</table>
+
+
+
+
+
+</body>
+</html>
